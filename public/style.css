@@ -1,0 +1,523 @@
+body{
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+.background{
+    position: fixed;
+    left:-100px;
+    top:-900px;
+    z-index: -1;
+    
+}
+.background img{
+  
+}
+.header{
+    width: 70%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Days One', sans-serif;
+}
+
+
+.header .nav ul{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 20px;
+
+
+}
+.header .nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 30px;
+    padding: 5px;
+    
+    color: #000;
+    font-weight: bold;
+}
+ .intro{ 
+    
+     
+     padding: 100px;
+     display: flex;
+     width: 80%;
+     justify-content: space-between;
+     align-items: center;
+     font-family: 'Fredoka One', cursive;
+     color: rgb(216, 41, 79);
+     
+ }
+ .intro-details{
+     display: flex;
+     flex-flow: column;
+     justify-content: flex-start;
+     width: 60%
+     align-self: flex-start;
+     letter-spacing: .1rem;
+ }
+ .intro-details button{
+     align-self: flex-start;
+     
+   
+     padding:20px 60px;
+     font-size: 25px;
+     margin-top: 20px;
+     border: 1px solid #000;
+     border-radius: 40px;
+     color:rgb(255, 255, 255);
+     background-color: rgb(216, 41, 79);
+     font-family: 'Fredoka One', cursive;
+ }
+
+ .side-bar button:hover{
+    background-color: rgb(204, 103, 125);
+ }
+
+ .intro .intro-img{
+     width: 50%;
+ }
+ .intro .intro-img img{
+     width: 300px
+ }
+
+
+
+ .side-bar{
+     padding-top: 200px;
+     float: left;
+     height: 900px;
+     width:130px;
+    
+     
+     justify-content: space-between;
+   
+     
+     background-color:rgb(216, 41, 79);
+    
+ }
+ .side-bar button{
+     width: 100%;
+     margin: 0px 0px;
+     padding: 20px 30px;
+     height: 100px;
+     background-color: rgb(49, 46, 46);
+     border: none;
+     outline: none;
+     color: rgb(255, 255, 255);
+     font-family: 'Days One', sans-serif;
+     font-weight: 100;
+     border-bottom: 2px solid #fff;
+ }
+ .container{
+     
+     float: right;
+     width: 80%
+ }
+
+
+ /* skills */
+
+ .skills{
+    
+    display: none;
+    color:black;
+    
+   
+    width:500px;
+  margin:30px auto 0px 50px;
+    padding:50px 0px;
+    
+}
+
+.skills ul li {
+
+    margin: 30px 0;
+}
+
+.skills ul li  h3{
+    color:rgb(0, 0, 0);
+    font-size:16px;
+    line-height: .5;
+    font-family: 'Days One', sans-serif;
+    
+}
+.skills ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    
+}
+
+
+ .bar{
+    display: block;
+   
+    height: 10px;
+    border:4px solid rgb(180, 71, 71);
+    border-radius: 40px;
+    box-shadow: 1px 1px 4px rgb(219, 109, 109);
+ 
+  
+}
+.html{
+
+    -webkit-animation: html 2s;
+    display: block;
+    height: 10px;
+     border-radius: 40px;
+    background-color: rgb(219, 109, 109); 
+    
+
+}
+
+
+.css{
+  
+    display: block;
+    height: 10px;
+     border-radius: 40px;
+    background-color: rgb(219, 109, 109); 
+    -webkit-animation: css 2s;
+    -webkit-animation-fill-mode: forwards;
+
+}
+.javascript{
+   -webkit-animation:javascript 2s;
+    -webkit-animation-fill-mode: forwards;
+    display: block;
+    height: 10px;
+     border-radius: 40px;
+    
+    background-color: rgb(219, 109, 109); 
+
+}
+.bootstrap{
+
+    -webkit-animation: bootstrap 2s;
+    -webkit-animation-fill-mode: forwards;
+    display: block;
+    height: 10px;
+     border-radius: 40px;
+    background-color: rgb(219, 109, 109); 
+    
+
+}
+.nodejs{
+    -webkit-animation: nodejs 2s;
+    -webkit-animation-fill-mode: forwards;
+    display: block;
+    height: 10px;
+     border-radius: 40px;
+     
+    background-color: rgb(219, 109, 109); 
+
+}
+.express{
+    -webkit-animation: express 2s;
+    -webkit-animation-fill-mode: forwards;
+    display: block;
+    height: 10px;
+     border-radius: 40px;
+    
+    background-color: rgb(219, 109, 109); 
+
+}
+
+.adobe{
+    -webkit-animation: adobe 2s;
+    -webkit-animation-fill-mode: forwards;
+    
+    display: block;
+    height: 10px;
+     border-radius: 40px;
+    
+    background-color: rgb(219, 109, 109); 
+
+
+}
+
+
+
+/* education */
+.ed{
+ display: none; 
+ font-family: 'Acme', sans-serif;
+
+}
+.edu-head{
+    font-family: 'Days One', sans-serif;
+    margin-top: 100px;
+
+}
+.edu{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.certificates img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* contact */
+.contact {
+    
+ 
+  width: 90%;
+  margin: 100px  auto;
+}
+
+.contact .atu{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+  flex-flow: column;  
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact .atu .social{
+    
+    
+}
+
+
+ .email{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+form{
+   
+    font-family: 'Acme', sans-serif;
+}
+form button{
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 30%;
+    font-family: 'Acme', sans-serif;
+    align-items: flex-end;
+    margin-left: 100px;
+    background-color: rgb(216, 41, 79);
+    border:none;
+    border-radius:20px;
+    transition: 4s;
+}
+
+form button :hover{
+    transform:scaleY(2);
+    padding: 5px;
+}
+.email form label{
+    font-size: 20px;
+    
+}
+
+.email form input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:70%;
+    padding: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.253);
+    
+}
+
+textarea{
+    background-color: rgba(255, 255, 255, 0.253);
+}
+.social>div{
+    
+    margin: 10px 0px;
+}
+
+.wrap{
+
+    position: absolute;
+    background-image: url(./contact.svg);
+    background-size: cover;
+    background-position: 200% 300% 200%;
+    opacity: 0.3;
+    
+
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    
+    
+}
+ 
+
+
+.whatsapp , .phone
+{
+    font-size: 25px;
+
+}
+.social .whatsapp i , .social .whatsapp a , .social .phone i , .social .phone a {
+    font-size: 20px;
+    text-decoration: none;
+  
+  
+}
+.social .whatsapp a ,.social .phone a{
+    font-family: 'Acme', sans-serif;
+    color: rgb(0, 0, 0)
+}
+.email h3{
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    line-height: 1.7;
+}
+
+   
+
+
+
+
+
+/* work tabbed */
+.work-img {
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+.work-img img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: .3;
+    position: fixed;
+    
+}
+
+ 
+
+ .websites {
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 20px;
+  padding:50px;
+    
+    width: 60%;
+    margin: 60px auto;
+    
+   
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+  align-items: center;
+}
+.work>div{
+    width: 30%;
+    margin: 5%;
+ 
+    
+    
+    
+}
+.work  h1, .work h3{
+    margin-left: 300px;
+    font-size: 30px;
+    font-family: 'Days One', sans-serif;
+
+}
+
+.loginui{
+    margin-top: 69px;
+   
+    
+    
+}
+
+.work .websites>div{
+    width: 100%;
+    transition: 3s;
+}
+.websites div h3{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+    color: rgb(255, 255, 255);
+}
+
+ .web{
+    font-size: 40px;
+  width:400px;
+  margin: 150px auto 0px auto;
+    font-family: 'Days One', sans-serif;
+
+}
+
+
+
+.work .websites a :hover{
+    padding-left: 5px;
+    box-shadow: 3px 3px 3px #333;
+    transform:scale(1.1)  ; 
+
+}
+.websites a img{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+
+.logo-des{
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin:0 auto;
+}
+.col {
+    
+}
+.logo-des h1{
+    
+    width:300px;
+    font-family: 'Days One', sans-serif;
+    margin: 50px auto 0px auto;
+}
+.col{
+   
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 20px;
+    padding:50px;
+    
+    width: 80%;
+    margin: 60px auto;
+    margin-left: 30px;
+   
+  
+}
+.col .images{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+
+}
+.col .images img{
+    width: 30%;
+    margin: 1%;
+}
+
+
+
+
